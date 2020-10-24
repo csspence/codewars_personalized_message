@@ -9,6 +9,6 @@ name equals owner	'Hello boss'
 otherwise	'Hello guest'
 */
 
-function greet (name, owner) {
-  // Add code here
+const greet = (name, owner) => {
+  return name === owner ? 'Hello boss' : 'Hello guest';
 }
